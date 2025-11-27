@@ -1,0 +1,49 @@
+body {
+    background-image : url(https://i.pinimg.com/1200x/44/c6/0d/44c60d734754e298a207972f27c76aed.jpg);
+    /* background-color: #1a1a2e; */
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.btn {
+    display: block;
+    background-color: #601e4b;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ed67ae;
+    transform: scale(1.02);
+}
+
+/* DESAFIO: Estilize o botão especial */
+.destaque {
+     display: block;
+    background-color: #824376;
+    color: #ffffff;
+    padding: 15px;
+    margin: 25px 50px;
+    text-decoration: none;
+    border-radius: 21px;
+    transition: 0.3s;
+}
