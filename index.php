@@ -2,7 +2,7 @@
 
 // --- DADOS DO PERFIL (PREENCHA COM SEUS DADOS) ---
 $nome = "Melissa";
-$bio = "biografia maneira";
+$bio = "biografia super maneira :D";
 $imagem = "https://i.pinimg.com/1200x/fe/af/58/feaf58ac36b3e619f1ca23de9d2b0244.jpg";
 $links = [
     "Instagram" => "https://instagram.com/m3lissa_fava",
@@ -43,6 +43,9 @@ $links = [
                     }
                 ?>
             </div>
+                <div class="area-contato">
+            <a href="contato.php" class="btn-msg">📧 Mandar Mensagem</a>
+        </div>
         </div>
     </body>
 </html>
